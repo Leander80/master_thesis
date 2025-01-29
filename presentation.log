@@ -1,7 +1,7 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.10.11)  29 JAN 2025 17:23
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.10.11)  10 JAN 2025 13:05
  restricted system commands enabled.
-**presentation.tex
-(./presentation.tex
+**presentation/presentation.tex
+(./presentation/presentation.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
 Lua module: luaotfload 2024-02-14 3.28 Lua based OpenType font support
@@ -1690,7 +1690,7 @@ Module polyglossia Info: Language data for ngerman
 (polyglossia)            synonyms	 on input line 33
 Module polyglossia Info: Language ngerman was not yet loaded; created with id 3 
 on input line 33
-(./presentation.nav)
+No file presentation.nav.
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
 (Font)              scaled to size 4.24477pt on input line 33.
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/b/n' will be
@@ -1706,324 +1706,41 @@ File: logos/tu_light.pdf Graphic file (type pdf)
 <use logos/tu_light.pdf>
 Package luatex.def Info: logos/tu_light.pdf  used on input line 36.
 (luatex.def)             Requested size: 141.18784pt x 22.76271pt.
-<~/Desktop/master_thesis/Plots/bias.png, id=14, 343.2825pt x 325.9377pt>
-File: ~/Desktop/master_thesis/Plots/bias.png Graphic file (type png)
-<use ~/Desktop/master_thesis/Plots/bias.png>
-Package luatex.def Info: ~/Desktop/master_thesis/Plots/bias.png  used on input 
-line 36.
-(luatex.def)             Requested size: 255.14903pt x 242.25441pt.
 
-Overfull \vbox (4.76962pt too high) detected at line 36
- []
+LaTeX Warning: File `~/Desktop/master_thesis/presentation/Plots/bias.png' not f
+ound on input line 36.
 
 
+! Package luatex.def Error: File `~/Desktop/master_thesis/presentation/Plots/bi
+as.png' not found: using draft setting.
 
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 3.39581pt on input line 36.
-File: logos/tu_light.pdf Graphic file (type pdf)
-<use logos/tu_light.pdf>
-Package luatex.def Info: logos/tu_light.pdf  used on input line 36.
-(luatex.def)             Requested size: 141.18784pt x 22.76271pt.
-[1
+See the luatex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 \end{frame}
+              
+? ^^[[A
 
-</home/leander/texmf/tex/latex/tudobeamertheme/logos/tu_light.pdf></home/leander
-/Desktop/master_thesis/Plots/bias.png>]
-File: logos/tu_light.pdf Graphic file (type pdf)
-<use logos/tu_light.pdf>
-Package luatex.def Info: logos/tu_light.pdf  used on input line 39.
-(luatex.def)             Requested size: 141.18784pt x 22.76271pt.
-<../Plots/test_statistic.png, id=22, 417.7206pt x 312.9291pt>
-File: ../Plots/test_statistic.png Graphic file (type png)
-<use ../Plots/test_statistic.png>
-Package luatex.def Info: ../Plots/test_statistic.png  used on input line 39.
-(luatex.def)             Requested size: 297.66956pt x 222.99294pt.
-
-Overfull \vbox (4.38821pt too high) detected at line 39
- []
+? 
+! Emergency stop.
+ ...                                              
+                                                  
+l.36 \end{frame}
+              
+End of file on the terminal!
 
 
-
-File: logos/tu_light.pdf Graphic file (type pdf)
-<use logos/tu_light.pdf>
-Package luatex.def Info: logos/tu_light.pdf  used on input line 39.
-(luatex.def)             Requested size: 141.18784pt x 22.76271pt.
-[2
-
-{/home/leander/.local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-<../Plots/test_statistic.png>]
-File: logos/tu_light.pdf Graphic file (type pdf)
-<use logos/tu_light.pdf>
-Package luatex.def Info: logos/tu_light.pdf  used on input line 42.
-(luatex.def)             Requested size: 141.18784pt x 22.76271pt.
-<../Plots/test_statisti_previous.png, id=31, 455.301pt x 339.669pt>
-File: ../Plots/test_statisti_previous.png Graphic file (type png)
-<use ../Plots/test_statisti_previous.png>
-Package luatex.def Info: ../Plots/test_statisti_previous.png  used on input lin
-e 42.
-(luatex.def)             Requested size: 297.66956pt x 222.07796pt.
-
-Overfull \vbox (3.47324pt too high) detected at line 42
- []
-
-
-
-File: logos/tu_light.pdf Graphic file (type pdf)
-<use logos/tu_light.pdf>
-Package luatex.def Info: logos/tu_light.pdf  used on input line 42.
-(luatex.def)             Requested size: 141.18784pt x 22.76271pt.
-[3
-
-<../Plots/test_statisti_previous.png>]
-File: logos/tu_light.pdf Graphic file (type pdf)
-<use logos/tu_light.pdf>
-Package luatex.def Info: logos/tu_light.pdf  used on input line 65.
-(luatex.def)             Requested size: 141.18784pt x 22.76271pt.
-<../Plots/bundle_spectrum_mc.pdf, id=38, 462.528pt x 346.896pt>
-File: ../Plots/bundle_spectrum_mc.pdf Graphic file (type pdf)
-<use ../Plots/bundle_spectrum_mc.pdf>
-Package luatex.def Info: ../Plots/bundle_spectrum_mc.pdf  used on input line 65
-.
-(luatex.def)             Requested size: 86.7524pt x 65.06401pt.
-<../Plots/bundle_spectrum_mc_5e5surface.pdf, id=39, 462.528pt x 346.896pt>
-File: ../Plots/bundle_spectrum_mc_5e5surface.pdf Graphic file (type pdf)
-<use ../Plots/bundle_spectrum_mc_5e5surface.pdf>
-Package luatex.def Info: ../Plots/bundle_spectrum_mc_5e5surface.pdf  used on in
-put line 65.
-(luatex.def)             Requested size: 86.7524pt x 65.06401pt.
-<../Plots/bundle_spectrum_mc_5e5surface_quality.pdf, id=40, 462.528pt x 346.896
-pt>
-File: ../Plots/bundle_spectrum_mc_5e5surface_quality.pdf Graphic file (type pdf
-)
-<use ../Plots/bundle_spectrum_mc_5e5surface_quality.pdf>
-Package luatex.def Info: ../Plots/bundle_spectrum_mc_5e5surface_quality.pdf  us
-ed on input line 65.
-(luatex.def)             Requested size: 86.7524pt x 65.06401pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-[]
- []
-
-<../Plots/bundle_spectrum_reco.pdf, id=41, 462.528pt x 346.896pt>
-File: ../Plots/bundle_spectrum_reco.pdf Graphic file (type pdf)
-<use ../Plots/bundle_spectrum_reco.pdf>
-Package luatex.def Info: ../Plots/bundle_spectrum_reco.pdf  used on input line 
-65.
-(luatex.def)             Requested size: 86.7524pt x 65.06401pt.
-<../Plots/bundle_spectrum_reco_5e5_surface.pdf, id=42, 462.528pt x 346.896pt>
-File: ../Plots/bundle_spectrum_reco_5e5_surface.pdf Graphic file (type pdf)
-<use ../Plots/bundle_spectrum_reco_5e5_surface.pdf>
-Package luatex.def Info: ../Plots/bundle_spectrum_reco_5e5_surface.pdf  used on
- input line 65.
-(luatex.def)             Requested size: 86.7524pt x 65.06401pt.
-<../Plots/bundle_spectrum_reco_5e5surface_quality.pdf, id=43, 462.528pt x 346.8
-96pt>
-File: ../Plots/bundle_spectrum_reco_5e5surface_quality.pdf Graphic file (type p
-df)
-<use ../Plots/bundle_spectrum_reco_5e5surface_quality.pdf>
-Package luatex.def Info: ../Plots/bundle_spectrum_reco_5e5surface_quality.pdf  
-used on input line 65.
-(luatex.def)             Requested size: 86.7524pt x 65.06401pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-[]
- []
-
-<../Plots/leading_spectrum_mc.pdf, id=44, 462.528pt x 346.896pt>
-File: ../Plots/leading_spectrum_mc.pdf Graphic file (type pdf)
-<use ../Plots/leading_spectrum_mc.pdf>
-Package luatex.def Info: ../Plots/leading_spectrum_mc.pdf  used on input line 6
-5.
-(luatex.def)             Requested size: 86.7524pt x 65.06401pt.
-<../Plots/leading_spectrum_mc_5e5surface.pdf, id=45, 462.528pt x 346.896pt>
-File: ../Plots/leading_spectrum_mc_5e5surface.pdf Graphic file (type pdf)
-<use ../Plots/leading_spectrum_mc_5e5surface.pdf>
-Package luatex.def Info: ../Plots/leading_spectrum_mc_5e5surface.pdf  used on i
-nput line 65.
-(luatex.def)             Requested size: 86.7524pt x 65.06401pt.
-<../Plots/leading_spectrum_mc_5e5surface_quality.pdf, id=46, 462.528pt x 346.89
-6pt>
-File: ../Plots/leading_spectrum_mc_5e5surface_quality.pdf Graphic file (type pd
-f)
-<use ../Plots/leading_spectrum_mc_5e5surface_quality.pdf>
-Package luatex.def Info: ../Plots/leading_spectrum_mc_5e5surface_quality.pdf  u
-sed on input line 65.
-(luatex.def)             Requested size: 86.7524pt x 65.06401pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-[]
- []
-
-<../Plots/leading_spectrum_reco.pdf, id=47, 462.528pt x 346.896pt>
-File: ../Plots/leading_spectrum_reco.pdf Graphic file (type pdf)
-<use ../Plots/leading_spectrum_reco.pdf>
-Package luatex.def Info: ../Plots/leading_spectrum_reco.pdf  used on input line
- 65.
-(luatex.def)             Requested size: 86.7524pt x 65.06401pt.
-<../Plots/leading_spectrum_reco_5e5surface.pdf, id=48, 462.528pt x 346.896pt>
-File: ../Plots/leading_spectrum_reco_5e5surface.pdf Graphic file (type pdf)
-<use ../Plots/leading_spectrum_reco_5e5surface.pdf>
-Package luatex.def Info: ../Plots/leading_spectrum_reco_5e5surface.pdf  used on
- input line 65.
-(luatex.def)             Requested size: 86.7524pt x 65.06401pt.
-<../Plots/leading_spectrum_reco_5e5surface_quality.pdf, id=49, 462.528pt x 346.
-896pt>
-File: ../Plots/leading_spectrum_reco_5e5surface_quality.pdf Graphic file (type 
-pdf)
-<use ../Plots/leading_spectrum_reco_5e5surface_quality.pdf>
-Package luatex.def Info: ../Plots/leading_spectrum_reco_5e5surface_quality.pdf 
- used on input line 65.
-(luatex.def)             Requested size: 86.7524pt x 65.06401pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-[]
- []
-
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/b/n' will be
-(Font)              scaled to size 8.3931pt on input line 65.
-
-
-File: logos/tu_light.pdf Graphic file (type pdf)
-<use logos/tu_light.pdf>
-Package luatex.def Info: logos/tu_light.pdf  used on input line 65.
-(luatex.def)             Requested size: 141.18784pt x 22.76271pt.
-[4
-
-<../Plots/bundle_spectrum_mc.pdf><../Plots/bundle_spectrum_mc_5e5surface.pdf><..
-/Plots/bundle_spectrum_mc_5e5surface_quality.pdf><../Plots/bundle_spectrum_reco.
-pdf><../Plots/bundle_spectrum_reco_5e5_surface.pdf><../Plots/bundle_spectrum_rec
-o_5e5surface_quality.pdf><../Plots/leading_spectrum_mc.pdf><../Plots/leading_spe
-ctrum_mc_5e5surface.pdf><../Plots/leading_spectrum_mc_5e5surface_quality.pdf><..
-/Plots/leading_spectrum_reco.pdf><../Plots/leading_spectrum_reco_5e5surface.pdf>
-<../Plots/leading_spectrum_reco_5e5surface_quality.pdf>]
-File: logos/tu_light.pdf Graphic file (type pdf)
-<use logos/tu_light.pdf>
-Package luatex.def Info: logos/tu_light.pdf  used on input line 74.
-(luatex.def)             Requested size: 141.18784pt x 22.76271pt.
-<../Plots/background_distribution_fit_conv=1.pdf, id=603, 408.27217pt x 275.282
-2pt>
-File: ../Plots/background_distribution_fit_conv=1.pdf Graphic file (type pdf)
-<use ../Plots/background_distribution_fit_conv=1.pdf>
-Package luatex.def Info: ../Plots/background_distribution_fit_conv=1.pdf  used 
-on input line 74.
-(luatex.def)             Requested size: 208.37193pt x 140.49706pt.
-<../Plots/background_distribution_fit_conv=10.pdf, id=604, 408.27217pt x 275.28
-22pt>
-File: ../Plots/background_distribution_fit_conv=10.pdf Graphic file (type pdf)
-<use ../Plots/background_distribution_fit_conv=10.pdf>
-Package luatex.def Info: ../Plots/background_distribution_fit_conv=10.pdf  used
- on input line 74.
-(luatex.def)             Requested size: 208.37193pt x 140.49706pt.
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 6.79163pt on input line 74.
-LaTeX Font Info:    Font shape `TU/FiraMath(1)/m/n' will be
-(Font)              scaled to size 6.73999pt on input line 74.
-LaTeX Font Info:    Font shape `TU/FiraMath(1)/m/n' will be
-(Font)              scaled to size 5.055pt on input line 74.
-LaTeX Font Info:    Font shape `TU/FiraMath(1)/m/n' will be
-(Font)              scaled to size 4.2125pt on input line 74.
-LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 6.73999pt on input line 74.
-LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 5.055pt on input line 74.
-LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 4.2125pt on input line 74.
-LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 6.73999pt on input line 74.
-LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 5.055pt on input line 74.
-LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 4.2125pt on input line 74.
-
-
-File: logos/tu_light.pdf Graphic file (type pdf)
-<use logos/tu_light.pdf>
-Package luatex.def Info: logos/tu_light.pdf  used on input line 74.
-(luatex.def)             Requested size: 141.18784pt x 22.76271pt.
-[5
-
-<../Plots/background_distribution_fit_conv=1.pdf><../Plots/background_distributi
-on_fit_conv=10.pdf>]
-File: logos/tu_light.pdf Graphic file (type pdf)
-<use logos/tu_light.pdf>
-Package luatex.def Info: logos/tu_light.pdf  used on input line 91.
-(luatex.def)             Requested size: 141.18784pt x 22.76271pt.
-<../Plots/TS_Distribution_5e5_5bins.pdf, id=719, 462.528pt x 346.896pt>
-File: ../Plots/TS_Distribution_5e5_5bins.pdf Graphic file (type pdf)
-<use ../Plots/TS_Distribution_5e5_5bins.pdf>
-Package luatex.def Info: ../Plots/TS_Distribution_5e5_5bins.pdf  used on input 
-line 91.
-(luatex.def)             Requested size: 177.1174pt x 132.83813pt.
-<../Plots/TS_Distribution_5e5_6bins.pdf, id=720, 462.528pt x 346.896pt>
-File: ../Plots/TS_Distribution_5e5_6bins.pdf Graphic file (type pdf)
-<use ../Plots/TS_Distribution_5e5_6bins.pdf>
-Package luatex.def Info: ../Plots/TS_Distribution_5e5_6bins.pdf  used on input 
-line 91.
-(luatex.def)             Requested size: 177.1174pt x 132.83813pt.
-
-
-File: logos/tu_light.pdf Graphic file (type pdf)
-<use logos/tu_light.pdf>
-Package luatex.def Info: logos/tu_light.pdf  used on input line 91.
-(luatex.def)             Requested size: 141.18784pt x 22.76271pt.
-[6
-
-<../Plots/TS_Distribution_5e5_5bins.pdf><../Plots/TS_Distribution_5e5_6bins.pdf>
-]
-\tf@nav=\write5
-
-\openout5 = presentation.nav
-\tf@toc=\write6
-
-\openout6 = presentation.toc
-\tf@snm=\write7
-
-\openout7 = presentation.snm
- (./presentation.aux)
- ***********
-LaTeX2e <2024-06-01> patch level 2
-L3 programming layer <2024-09-10>
- ***********
-)
 
 Here is how much of LuaTeX's memory you used:
- 34708 strings out of 475910
- 100000,1648299 words of node,token memory allocated
- 2310 words of node memory still in use:
-   51 hlist, 11 vlist, 7 rule, 2 disc, 8 local_par, 4 math, 68 glue, 8 kern, 26 
-penalty, 18 glyph, 88 attribute, 70 glue_spec, 88 attribute_list, 4 write, 16 pd
-f_colorstack, 3 pdf_setmatrix, 3 pdf_save, 3 pdf_restore nodes
-   avail lists: 2:382,3:185,4:158,5:97,6:32,7:669,8:8,9:502,10:3,11:30
- 56405 multiletter control sequences out of 65536+600000
- 96 fonts using 28761695 bytes
- 128i,18n,147p,386b,848s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</home/leander/.local/texlive/2024/texmf-dist/fonts/opentype/public/firamath/Fir
-aMath-Regular.otf></home/leander/.local/texlive/2024/texmf-dist/fonts/opentype/p
-ublic/fira/FiraSans-Medium.otf></home/leander/.local/texlive/2024/texmf-dist/fon
-ts/opentype/public/fira/FiraSans-Light.otf>
-Output written on presentation.pdf (6 pages, 305834 bytes).
-
-PDF statistics: 837 PDF objects out of 1000 (max. 8388607)
- 205 compressed objects within 3 object streams
- 13 named destinations out of 1000 (max. 131072)
- 16 words of extra memory for PDF output out of 10000 (max. 100000000)
-
+ 34319 strings out of 475910
+ 100000,1648299 words of node,token memory allocated 1241 words of node memory still in use:
+   25 hlist, 5 vlist, 4 rule, 4 local_par, 2 dir, 25 glue, 5 kern, 4 penalty, 1 
+glyph, 43 attribute, 70 glue_spec, 43 attribute_list, 2 temp, 7 if_stack, 2 writ
+e, 1 pdf_dest, 13 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nod
+es
+   avail lists: 2:74,3:9,4:22,5:27,6:4,7:53,9:30,10:1,11:2
+ 56130 multiletter control sequences out of 65536+600000
+ 75 fonts using 22974295 bytes
+ 128i,11n,147p,399b,446s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!

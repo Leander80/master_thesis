@@ -31,37 +31,46 @@
   mathrm=sym,
 }
 \begin{document}
+%\begin{frame}
+%  \includegraphics[width=0.6\textwidth]{~/Desktop/master_thesis/Plots/bias.png}
+%\end{frame}
+%\begin{frame}
+%  \includegraphics[width=0.7\textwidth]{../Plots/test_statistic}
+%\end{frame}
+%\begin{frame}
+%  \includegraphics[width=0.7\textwidth]{../Plots/test_statisti_previous}
+%\end{frame}
+%\begin{frame}
+%  \frametitle{Spectra depending on cuts}
+%  \begin{minipage}[t]{0.24\textwidth}
+%    \includegraphics[width=0.85\textwidth]{../Plots/bundle_spectrum_mc.pdf}
+%    \includegraphics[width=0.85\textwidth]{../Plots/bundle_spectrum_mc_5e5surface.pdf}
+%    \includegraphics[width=0.85\textwidth]{../Plots/bundle_spectrum_mc_5e5surface_quality.pdf}
+%  \end{minipage}
+%  \begin{minipage}[t]{0.24\textwidth}
+%    \includegraphics[width=0.85\textwidth]{../Plots/bundle_spectrum_reco.pdf}
+%    \includegraphics[width=0.85\textwidth]{../Plots/bundle_spectrum_reco_5e5_surface.pdf}
+%    \includegraphics[width=0.85\textwidth]{../Plots/bundle_spectrum_reco_5e5surface_quality.pdf}
+%  \end{minipage}
+%  \begin{minipage}[t]{0.24\textwidth}
+%    \includegraphics[width=0.85\textwidth]{../Plots/leading_spectrum_mc.pdf}
+%    \includegraphics[width=0.85\textwidth]{../Plots/leading_spectrum_mc_5e5surface.pdf}
+%    \includegraphics[width=0.85\textwidth]{../Plots/leading_spectrum_mc_5e5surface_quality.pdf}
+%  \end{minipage}
+%  \begin{minipage}[t]{0.24\textwidth}
+%    \includegraphics[width=0.85\textwidth]{../Plots/leading_spectrum_reco.pdf}
+%    \includegraphics[width=0.85\textwidth]{../Plots/leading_spectrum_reco_5e5surface.pdf}
+%    \includegraphics[width=0.85\textwidth]{../Plots/leading_spectrum_reco_5e5surface_quality.pdf}
+%  \end{minipage}
+%\end{frame}
 \begin{frame}
-  \includegraphics[width=0.6\textwidth]{~/Desktop/master_thesis/Plots/bias.png}
-\end{frame}
-\begin{frame}
-  \includegraphics[width=0.7\textwidth]{../Plots/test_statistic}
-\end{frame}
-\begin{frame}
-  \includegraphics[width=0.7\textwidth]{../Plots/test_statisti_previous}
-\end{frame}
-\begin{frame}
-  \frametitle{Spectra depending on cuts}
-  \begin{minipage}[t]{0.24\textwidth}
-    \includegraphics[width=0.85\textwidth]{../Plots/bundle_spectrum_mc.pdf}
-    \includegraphics[width=0.85\textwidth]{../Plots/bundle_spectrum_mc_5e5surface.pdf}
-    \includegraphics[width=0.85\textwidth]{../Plots/bundle_spectrum_mc_5e5surface_quality.pdf}
-  \end{minipage}
-  \begin{minipage}[t]{0.24\textwidth}
-    \includegraphics[width=0.85\textwidth]{../Plots/bundle_spectrum_reco.pdf}
-    \includegraphics[width=0.85\textwidth]{../Plots/bundle_spectrum_reco_5e5_surface.pdf}
-    \includegraphics[width=0.85\textwidth]{../Plots/bundle_spectrum_reco_5e5surface_quality.pdf}
-  \end{minipage}
-  \begin{minipage}[t]{0.24\textwidth}
-    \includegraphics[width=0.85\textwidth]{../Plots/leading_spectrum_mc.pdf}
-    \includegraphics[width=0.85\textwidth]{../Plots/leading_spectrum_mc_5e5surface.pdf}
-    \includegraphics[width=0.85\textwidth]{../Plots/leading_spectrum_mc_5e5surface_quality.pdf}
-  \end{minipage}
-  \begin{minipage}[t]{0.24\textwidth}
-    \includegraphics[width=0.85\textwidth]{../Plots/leading_spectrum_reco.pdf}
-    \includegraphics[width=0.85\textwidth]{../Plots/leading_spectrum_reco_5e5surface.pdf}
-    \includegraphics[width=0.85\textwidth]{../Plots/leading_spectrum_reco_5e5surface_quality.pdf}
-  \end{minipage}
+  \frametitle{Handling of the conventional normalization}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.49\textwidth]{../Plots/TS_distribution_fit_conv=1_1y_null_fixed}
+    \includegraphics[width=0.49\textwidth]{../Plots/TS_distribution_fit_conv=1_1y}
+    \caption{Distribution of the test statistic for different injected prompt norms}
+  \end{figure}
 \end{frame}
 \begin{frame}
   \frametitle{Background estimation}
@@ -69,6 +78,7 @@
     \centering
     \includegraphics[width=0.49\textwidth]{../Plots/background_distribution_fit_conv=1.pdf}
     \includegraphics[width=0.49\textwidth]{../Plots/background_distribution_fit_conv=10.pdf}
+    %\caption{left: injected conv norm $1$ ($5\sigma=23.38$), right: injected conv norm $10$ ($5\sigma=27.46$)}
     \caption{left: injected conv norm $1$ ($5\sigma=23.38$), right: injected conv norm $10$ ($5\sigma=27.46$)}
   \end{figure}
 \end{frame}
@@ -77,14 +87,18 @@
   \begin{minipage}{0.49\textwidth}
     \begin{figure}
       \centering
-      \includegraphics[width=0.85\textwidth]{../Plots/TS_Distribution_5e5_5bins}
+      \includegraphics[width=0.6\textwidth]{../Plots/TS_Distribution_(3.5,8.5,8)}
+      \includegraphics[width=0.6\textwidth]{../Plots/spectrum_(3.5,8.5,8)}
       %\includegraphics[width=0.85\textwidth]{}
+      \caption{discovery potential $n_p=0.22$}
     \end{figure}
   \end{minipage}
   \begin{minipage}{0.49\textwidth}
     \begin{figure}
       \centering
-      \includegraphics[width=0.85\textwidth]{../Plots/TS_Distribution_5e5_6bins}
+      \includegraphics[width=0.6\textwidth]{../Plots/TS_Distribution_(4.5,8,6)}
+      \includegraphics[width=0.6\textwidth]{../Plots/spectrum_(4.5,8,6)}
+      \caption{discovery potential $n_p=0.92$}
       %\includegraphics[width=0.85\textwidth]{}
     \end{figure}
   \end{minipage}

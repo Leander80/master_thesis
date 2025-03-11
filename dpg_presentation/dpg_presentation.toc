@@ -1,5 +1,1 @@
 \selectlanguage *[]{german}
-\beamer@sectionintoc {1}{IceCube Neutrino Observatory}{2}{0}{1}
-\beamer@sectionintoc {2}{Atmospheric Air Showers}{3}{0}{2}
-\beamer@sectionintoc {3}{The Prompt Component}{4}{0}{3}
-\beamer@sectionintoc {4}{The Muon-Puzzle}{5}{0}{4}

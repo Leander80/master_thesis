@@ -19,7 +19,7 @@
 
 \usetheme[
   showtotalframes, % show total number of frames in the footline
-   dark, % optional dark theme, uncomment to use
+   % dark, % optional dark theme, uncomment to use
 ]{tudo}
 
 % Put settings here, like
@@ -43,7 +43,7 @@
 %\end{frame}  
 %\section{IceCube Neutrino Observatory}
 \begin{frame}
-    \section{IceCube Neutrino Observatory}
+    \frametitle{IceCube Neutrino Observatory}
     \begin{minipage}{0.6\textwidth}
         \includegraphics[width=\textwidth]{Plots/IceCube schematic}
     \end{minipage}
@@ -51,13 +51,13 @@
         \begin{itemize}
             \item Cubic kilometer scale cherenkov detector
             \item $5160$ DOMs on $86$ strings
-            \item $\approx 270$ measured Nutrino Events per day
-            \item $\approx \SI{3}{\kilo\hertz}$
+            \item ~$270$ measured Nutrino Events per day
+            \item ~$\approx \SI{3}{\kilo\hertz}$ muon event rate
         \end{itemize}
     \end{minipage}
 \end{frame}
 \begin{frame}
-    \section{Atmospheric Air Showers}
+    \frametitle{Atmospheric Air Showers}
     \begin{minipage}{0.6\textwidth}
         \includegraphics[width=\textwidth]{Plots/Air Shower Illustration}
     \end{minipage}
@@ -69,7 +69,7 @@
     \end{minipage}
 \end{frame}
 \begin{frame}
-    \section{The Prompt Component}
+    \frametitle{The Prompt Component}
     \begin{minipage}{0.6\textwidth}
         \includegraphics[width=\textwidth]{Plots/Prompt vs conventional flux}
     \end{minipage}
@@ -82,25 +82,90 @@
     \end{minipage}
 \end{frame}
 \begin{frame}
-    \section{The Muon-Puzzle}
-    \begin{minipage}{0.6\textwidth}
-        \includegraphics[width=\textwidth]{Plots/Prompt vs conventional flux}
-    \end{minipage}
-    \begin{minipage}{0.39\textwidth}
-        \begin{itemize}
-            \item More muons measured than simulations predicted
-            \item Composition of secondary particles in cosmic ray interactions
-            \item Hadronic interaction models
-            \item Muons in IceCube: high energies and forward boosted
-        \end{itemize}
-    \end{minipage}
+    \frametitle{The Muon-Puzzle}
+    \includegraphics[width=0.9\textwidth]{Plots/muon puzzle}
+%    \begin{itemize}
+%        \item More muons measured than simulations predicted
+%        \item Hadronic interaction models
+%    \end{itemize}
 \end{frame}
 \begin{frame}
     \frametitle{Simulations and tagging}
     \begin{itemize}
         \item Tagging of parent particles in CORSIKA simulations
         \item Prompt definition based on parent of leading muon
-        \item Allows MC-Sample with prompt/conventional distinction 
+        \item Allows for MC-Sample with prompt/conventional distinction 
+        \item Simulation up to extremely high energies $>\SI{10}{\peta\electronvolt}$
+    \end{itemize}
+\end{frame}
+\begin{frame}
+    \frametitle{Reconstructions}
+    \begin{itemize}
+        \item Neural Network based
+        \item Zenith angle, bundle energy and leading muon energy
+        \item Small network for precuts
+    \end{itemize}
+\end{frame}
+\begin{frame}
+    \frametitle{Forward Folding}
+    \begin{minipage}{0.6\textwidth}
+        \includegraphics[width=\textwidth]{Plots/Prompt vs conventional flux}
+    \end{minipage}
+    \begin{minipage}{0.39\textwidth}
+        \begin{itemize}
+            \item Prompt normalization: fraction of prompt component relative to current MC-simulation $n_p$
+            \item Poisson likelihood in each histogram bin
+            \item Rescale with normalization factors 
+            \item Strong model dependancy
+        \end{itemize}
+    \end{minipage}
+\end{frame}
+\begin{frame}
+    \frametitle{Pseudoexperiments}
+    \begin{minipage}{0.6\textwidth}
+        \includegraphics[width=\textwidth]{Plots/injected norms}
+    \end{minipage}
+    \begin{minipage}{0.39\textwidth}
+        \begin{itemize}
+            \item Testing methods based on simulations
+            \item Events drawn based on primary model and normalizations
+            \item Inject normalization
+        \end{itemize}
+    \end{minipage}
+\end{frame}
+\begin{frame}
+    \frametitle{Background Estimation}
+    \begin{minipage}{0.6\textwidth}
+        \includegraphics[width=\textwidth]{Plots/Prompt vs conventional flux}
+    \end{minipage}
+    \begin{minipage}{0.39\textwidth}
+        \begin{itemize}
+            \item Likelihood ratio test
+            \item Draw background samples with $n_p=0$
+            \item Wilkes theorem: fit $\Chi^2$-distribution
+        \end{itemize}
+    \end{minipage}
+\end{frame}
+\begin{frame}
+    \frametitle{Discovery Potential}
+    \begin{minipage}{0.6\textwidth}
+        \includegraphics[width=\textwidth]{Plots/Prompt vs conventional flux}
+    \end{minipage}
+    \begin{minipage}{0.39\textwidth}
+        \begin{itemize}
+            \item How high does the prompt norm have to be to detect it with the current method?
+            \item Discovery potential: Norm at which half the generated trials yield $5 \sigma$ significance in the likelihood ratio test
+            \item Sensitive to input parameters, binning etc
+        \end{itemize}
+    \end{minipage}
+\end{frame}
+\begin{frame}
+    \frametitle{Conclusion}
+    \begin{itemize}
+        \item Current status: use NNMFit to include systematics
+        \item Optimize binning and cuts
+        \item Do burnsample analysis
+        \item Unblind
     \end{itemize}
 \end{frame}
 \end{document}

@@ -120,6 +120,9 @@
     \end{minipage}
 \end{frame}
 \begin{frame}
+	\frametitle{Reconstructions}
+\end{frame}
+\begin{frame}
     \frametitle{Forward Folding}
     \begin{minipage}{0.6\textwidth}
         \includegraphics[width=\textwidth]{Plots/spectrum_(3.5,8.5,8)_10Y.png}
@@ -160,7 +163,7 @@
     \end{minipage}
 \end{frame}
 \begin{frame}
-    \frametitle{Discovery Potential}
+    \frametitle{Discovery Potential: First Estimate}
     \begin{minipage}{0.6\textwidth}
         \includegraphics[width=\textwidth]{Plots/TS_Distribution(3.5,8.5,8)_10Y.png}
     \end{minipage}
@@ -168,10 +171,87 @@
         \begin{itemize}
             \item Prompt norm required to be to detect it with the current method?
             \item Discovery potential: Norm at which half the generated trials yield $5 \sigma$ significance in the likelihood ratio test
-            \item Sensitive to input parameters, binning etc
             \item Caution: Systematics are not yet included
+	    \item Switch to NNMFit
         \end{itemize}
     \end{minipage}
+\end{frame}
+\begin{frame}
+	\frametitle{Systematic Parameters: SnowStorm}
+	\begin{minipage}{0.39\textwidth}
+		\begin{itemize}
+			\item Detector parameters regarding the ice and DOMs
+			\item SnowStorm Ensemble: Individual systematics sampledeach event
+			\item Drawn from uniform distribution
+		\end{itemize}
+	\end{minipage}
+	\begin{minipage}{0.6\textwidth}
+		\includegraphics[width=\textwidth]{Plots/SnowStormEnsemble}
+	\end{minipage}
+\end{frame}
+\begin{frame}
+	\frametitle{Systematics: Reweighting}
+	\begin{minipage}{0.6\textwidth}
+		\includegraphics[width=\textwidth]{Plots/SnowStormReweighting}
+	\end{minipage}
+	\begin{minipage}{0.39\textwidth}
+		\begin{itemize}
+			\item How do the parameters impact the bincount?
+			\item Splitting or reweighting
+			\item "Inject" hypothesis for parameter by reweighting
+		\end{itemize}
+	\end{minipage}
+\end{frame}
+\begin{frame}
+	\frametitle{Detector Parameters}
+	\begin{minipage}{0.6\textwidth}
+		\includegraphics[width=\textwidth]{Plots/Parameters_impact}
+	\end{minipage}
+	\begin{minipage}{0.39\textwidth}
+		\begin{itemize}
+			\item DOM efficiency
+			\item Absorption of the ice
+			\item Scattering in the ice
+			\item Hole-ice models
+		\end{itemize}
+	\end{minipage}
+\end{frame}
+\begin{frame}
+	\frametitle{Discovery Potential including systematics}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.49\textwidth]{Plots/Discovery_Poisson}
+		\includegraphics[width=0.49\textwidth]{Plots/NNMFit_Histogram}
+	\end{figure}
+\end{frame}
+\begin{frame}
+	\frametitle{What about the MC-uncertainties?}
+	\begin{itemize}
+		\item Good discovery-potential with systematics
+		\item Poisson Likelihood: MC assumed to be perfect estimate
+		\item Alternative: The SAY-likelihood
+	\end{itemize}
+\end{frame}
+\begin{frame}
+	\frametitle{The SAY-likelihood}
+	\begin{itemize}
+		\item Treat MC-estimate as parameter drawn from distribution
+	\end{itemize}
+\end{frame}
+\begin{frame}
+	\frametitle{SAY vs Poisson}
+	\includegraphics[width=0.8\textwidth]{Plots/SAY_paper}
+\end{frame}
+\begin{frame}
+	\frametitle{Impact of SAY on the fit}
+	\begin{figure}
+	\end{figure}
+\end{frame}
+\begin{frame}
+	\frametitle{Bias test and fit precision}
+	\begin{figure}
+		\centering
+	\end{figure}
 \end{frame}
 \begin{frame}
     \frametitle{Summary}

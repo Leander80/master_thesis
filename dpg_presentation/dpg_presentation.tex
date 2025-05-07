@@ -80,17 +80,25 @@
     \begin{minipage}{0.39\textwidth}
         \begin{itemize}
             \item Conventional: produced by $K^{\pm}$/$\pi^{\pm}$
-            \item Prompt: produced by short lived particles
+            \item Prompt: produced by short-lived particles
             \item Prompt dominant at high energies
         \end{itemize}
     \end{minipage}
 \end{frame}
 \begin{frame}
     \frametitle{Prompt sensitivity}
-    \begin{figure}
-        \centering
-        \includegraphics[width=0.8\textwidth]{Plots/prompt_flux_zenith}
-    \end{figure}
+    \begin{minipage}{0.6\textwidth}
+        \begin{figure}
+            \centering
+            \includegraphics[width=\textwidth]{Plots/prompt_flux_zenith}
+        \end{figure}
+    \end{minipage}
+    \begin{minipage}{0.39\textwidth}
+        \begin{itemize}
+            \item Sensitivity increases at high energies
+            \item Prompt less impacted by the zenith angle
+        \end{itemize}
+    \end{minipage}
 \end{frame}
 \begin{frame}
     \frametitle{The Muon-Puzzle}
@@ -198,7 +206,7 @@
 		\end{itemize}
 	\end{minipage}
 	\begin{minipage}{0.6\textwidth}
-		\includegraphics[width=\textwidth]{Plots/SnowStormEnsemble}
+		\includegraphics[width=0.8\textwidth]{Plots/SnowStormEnsemble}
 	\end{minipage}
 \end{frame}
 \begin{frame}
@@ -217,7 +225,7 @@
 \begin{frame}
 	\frametitle{Detector Parameters}
 	\begin{minipage}{0.6\textwidth}
-		\includegraphics[width=\textwidth]{Plots/Parameters_impact}
+		\includegraphics[width=\textwidth]{Plots/SystematicVisualization}
 	\end{minipage}
 	\begin{minipage}{0.39\textwidth}
 		\begin{itemize}
@@ -229,11 +237,26 @@
 	\end{minipage}
 \end{frame}
 \begin{frame}
+    \frametitle{Detector Parameters}
+    \begin{minipage}{0.6\textwidth}
+        \begin{figure}
+            \centering
+            \includegraphics[width=\textwidth]{Plots/systematics_fit_impact}
+        \end{figure}
+    \end{minipage}
+    \begin{minipage}{0.39\textwidth}
+        \begin{itemize}
+            \item Likelihood Scan: Fix parameters in the fit
+            \item Systematics partially absorb the changed expectation
+        \end{itemize}
+    \end{minipage}
+\end{frame}
+\begin{frame}
 	\frametitle{Discovery Potential including systematics}
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.49\textwidth]{Plots/asimov_scan_Poisson}
-		\includegraphics[width=0.49\textwidth]{Plots/NNMFit_Histogram}
+		\includegraphics[width=0.49\textwidth]{Plots/spectrum_3_zenith_20ebins}
 	\end{figure}
 \end{frame}
 %\begin{frame}
@@ -249,23 +272,54 @@
 	\begin{itemize}
 		\item Poisson likelihood:
         \begin{equation}
-            L(k)
+            L(\vec{\Theta}|k)=\frac{\lambda(\vec{\Theta})^ke^{-\lambda(\vec{\Theta})}}{k!}
+        \end{equation}
+        \item Assumption: Expectation exactly known
+        \item For a limited number of sampled MC events this assumption is unrealistic
+        \item Better: Consider distribution of weights based on MC truth:
+        \begin{equation}
+            L(\vec{\Theta}|k)=\int_0^{\inf}\frac{\lambda^ke^{-\lambda}}{k!}P(\lambda|\vec{w}(\vec{\Theta}))d\lambda
+        \end{equation}
+        \item This leads to:
+        %\begin{equation}
+        %    (\frac{\mu}{\sigma^2})^{\frac{}}
 	\end{itemize}
 \end{frame}
 \begin{frame}
 	\frametitle{SAY vs Poisson}
-	\includegraphics[width=0.8\textwidth]{Plots/SAY_paper}
+	\includegraphics[width=0.49\textwidth]{Plots/SAY_paper}
+    \includegraphics[width=0.49\textwidth]{Plots/SAY_visualization}
 \end{frame}
 \begin{frame}
 	\frametitle{Impact of SAY on the fit}
-	\begin{figure}
-	\end{figure}
+    \begin{minipage}{0.6\textwidth}
+	    \begin{figure}
+            \includegraphics[width=\textwidth]{Plots/asimov_scan_say}
+	    \end{figure}
+    \end{minipage}
+    \begin{minipage}{0.39\textwidth}
+        \begin{itemize}
+            \item SAY likelihood significantly reduces the discovery potential
+            \item This reflects the high MC uncertainties in the high energy region
+            \item SAY converges to Poisson for perfect MC statistic $\rightarrow$ no disadvantage in using it
+        \end{itemize}
+    \end{minipage}
 \end{frame}
 \begin{frame}
 	\frametitle{Bias test and fit precision}
-	\begin{figure}
-		\centering
-	\end{figure}
+    \begin{minipage}{0.6\textwidth}
+	    \begin{figure}
+	    	\centering
+            \includegraphics[width=\textwidth]{Plots/bias_plot_linear_NNMFit_3zenith_20ebins-1}
+	    \end{figure}
+    \end{minipage}
+    \begin{minipage}{0.39\textwidth}
+        \begin{itemize}
+            \item Generated using Pseudoexperiments
+            \item Generally good prediction
+            \item Slight bias at high norms
+        \end{itemize}
+    \end{minipage}
 \end{frame}
 \begin{frame}
     \frametitle{Summary}

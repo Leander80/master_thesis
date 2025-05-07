@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.10.11)  5 MAY 2025 17:56
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.10.11)  7 MAY 2025 16:52
  restricted system commands enabled.
 **dpg_presentation.tex
 (./dpg_presentation.tex
@@ -1820,143 +1820,143 @@ Package luatex.def Info: logos/tu.pdf  used on input line 87.
 <./Plots/Prompt vs conventional flux.png>]
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 94.
+Package luatex.def Info: logos/tu.pdf  used on input line 102.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 <Plots/prompt_flux_zenith.png, id=109, 774.895pt x 658.46pt>
 File: Plots/prompt_flux_zenith.png Graphic file (type png)
 <use Plots/prompt_flux_zenith.png>
-Package luatex.def Info: Plots/prompt_flux_zenith.png  used on input line 94.
-(luatex.def)             Requested size: 340.19655pt x 289.08028pt.
+Package luatex.def Info: Plots/prompt_flux_zenith.png  used on input line 102.
+(luatex.def)             Requested size: 255.14903pt x 216.8102pt.
 
-Overfull \vbox (91.16539pt too high) detected at line 94
+Overfull \vbox (12.89531pt too high) detected at line 102
  []
 
 
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 94.
+Package luatex.def Info: logos/tu.pdf  used on input line 102.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 [5
 
 <./Plots/prompt_flux_zenith.png>]
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 102.
+Package luatex.def Info: logos/tu.pdf  used on input line 110.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 <Plots/muon puzzle.png, id=116, 1361.085pt x 634.37pt>
 File: Plots/muon puzzle.png Graphic file (type png)
 <use Plots/muon puzzle.png>
-Package luatex.def Info: Plots/muon puzzle.png  used on input line 102.
+Package luatex.def Info: Plots/muon puzzle.png  used on input line 110.
 (luatex.def)             Requested size: 382.71707pt x 178.3774pt.
 
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 102.
+Package luatex.def Info: logos/tu.pdf  used on input line 110.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 [6
 
 <./Plots/muon puzzle.png>]
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 116.
+Package luatex.def Info: logos/tu.pdf  used on input line 124.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 <Plots/prompt_tagging.png, id=123, 450.68375pt x 286.06876pt>
 File: Plots/prompt_tagging.png Graphic file (type png)
 <use Plots/prompt_tagging.png>
-Package luatex.def Info: Plots/prompt_tagging.png  used on input line 116.
+Package luatex.def Info: Plots/prompt_tagging.png  used on input line 124.
 (luatex.def)             Requested size: 170.09827pt x 107.96956pt.
 
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 116.
+Package luatex.def Info: logos/tu.pdf  used on input line 124.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 [7
 
 <./Plots/prompt_tagging.png>]
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 128.
+Package luatex.def Info: logos/tu.pdf  used on input line 136.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 <Plots/DNN_architecture.png, id=130, 1261.71375pt x 725.71124pt>
 File: Plots/DNN_architecture.png Graphic file (type png)
 <use Plots/DNN_architecture.png>
-Package luatex.def Info: Plots/DNN_architecture.png  used on input line 128.
+Package luatex.def Info: Plots/DNN_architecture.png  used on input line 136.
 (luatex.def)             Requested size: 255.14903pt x 146.7564pt.
 
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 128.
+Package luatex.def Info: logos/tu.pdf  used on input line 136.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 [8
 
 <./Plots/DNN_architecture.png>]
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 136.
+Package luatex.def Info: logos/tu.pdf  used on input line 144.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 <Plots/bundle_correlation.pdf, id=137, 462.528pt x 346.896pt>
 File: Plots/bundle_correlation.pdf Graphic file (type pdf)
 <use Plots/bundle_correlation.pdf>
-Package luatex.def Info: Plots/bundle_correlation.pdf  used on input line 136.
+Package luatex.def Info: Plots/bundle_correlation.pdf  used on input line 144.
 (luatex.def)             Requested size: 208.37193pt x 156.28172pt.
 <Plots/entry_correlation.pdf, id=138, 462.528pt x 346.896pt>
 File: Plots/entry_correlation.pdf Graphic file (type pdf)
 <use Plots/entry_correlation.pdf>
-Package luatex.def Info: Plots/entry_correlation.pdf  used on input line 136.
+Package luatex.def Info: Plots/entry_correlation.pdf  used on input line 144.
 (luatex.def)             Requested size: 208.37193pt x 156.28172pt.
 
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 136.
+Package luatex.def Info: logos/tu.pdf  used on input line 144.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 [9
 
 <./Plots/bundle_correlation.pdf><./Plots/entry_correlation.pdf>]
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 150.
+Package luatex.def Info: logos/tu.pdf  used on input line 158.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 <Plots/spectrum_(3.5,8.5,8)_10Y.png, id=213, 861.2175pt x 653.44125pt>
 File: Plots/spectrum_(3.5,8.5,8)_10Y.png Graphic file (type png)
 <use Plots/spectrum_(3.5,8.5,8)_10Y.png>
 Package luatex.def Info: Plots/spectrum_(3.5,8.5,8)_10Y.png  used on input line
- 150.
+ 158.
 (luatex.def)             Requested size: 255.14903pt x 193.59106pt.
 
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 150.
+Package luatex.def Info: logos/tu.pdf  used on input line 158.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 [10
 
 <./Plots/spectrum_(3.5,8.5,8)_10Y.png>]
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 163.
+Package luatex.def Info: logos/tu.pdf  used on input line 171.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 <Plots/injected norms.png, id=220, 455.301pt x 339.669pt>
 File: Plots/injected norms.png Graphic file (type png)
 <use Plots/injected norms.png>
-Package luatex.def Info: Plots/injected norms.png  used on input line 163.
+Package luatex.def Info: Plots/injected norms.png  used on input line 171.
 (luatex.def)             Requested size: 255.14903pt x 190.3481pt.
 
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 163.
+Package luatex.def Info: logos/tu.pdf  used on input line 171.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 [11
 
 <./Plots/injected norms.png>]
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 176.
+Package luatex.def Info: logos/tu.pdf  used on input line 184.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 <Plots/background_statistic_chi2_(3.5,8.5,8)_10Yp.png, id=228, 884.30376pt x 58
 3.17876pt>
@@ -1964,113 +1964,275 @@ File: Plots/background_statistic_chi2_(3.5,8.5,8)_10Yp.png Graphic file (type p
 ng)
 <use Plots/background_statistic_chi2_(3.5,8.5,8)_10Yp.png>
 Package luatex.def Info: Plots/background_statistic_chi2_(3.5,8.5,8)_10Yp.png  
-used on input line 176.
+used on input line 184.
 (luatex.def)             Requested size: 255.14903pt x 168.26324pt.
 
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 176.
+Package luatex.def Info: logos/tu.pdf  used on input line 184.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 [12
 
 <./Plots/background_statistic_chi2_(3.5,8.5,8)_10Yp.png>]
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 190.
+Package luatex.def Info: logos/tu.pdf  used on input line 198.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 <Plots/TS_Distribution(3.5,8.5,8)_10Y.png, id=235, 812.03375pt x 591.20876pt>
 File: Plots/TS_Distribution(3.5,8.5,8)_10Y.png Graphic file (type png)
 <use Plots/TS_Distribution(3.5,8.5,8)_10Y.png>
 Package luatex.def Info: Plots/TS_Distribution(3.5,8.5,8)_10Y.png  used on inpu
-t line 190.
+t line 198.
 (luatex.def)             Requested size: 255.14903pt x 185.76263pt.
 
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 190.
+Package luatex.def Info: logos/tu.pdf  used on input line 198.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 [13
 
 <./Plots/TS_Distribution(3.5,8.5,8)_10Y.png>]
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 203.
+Package luatex.def Info: logos/tu.pdf  used on input line 211.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 <Plots/SnowStormEnsemble.png, id=242, 606.265pt x 597.23125pt>
 File: Plots/SnowStormEnsemble.png Graphic file (type png)
 <use Plots/SnowStormEnsemble.png>
-Package luatex.def Info: Plots/SnowStormEnsemble.png  used on input line 203.
-(luatex.def)             Requested size: 255.14903pt x 251.34573pt.
-
-Overfull \vbox (47.43085pt too high) detected at line 203
- []
-
+Package luatex.def Info: Plots/SnowStormEnsemble.png  used on input line 211.
+(luatex.def)             Requested size: 204.12pt x 201.07841pt.
 
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 203.
+Package luatex.def Info: logos/tu.pdf  used on input line 211.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 [14
 
 <./Plots/SnowStormEnsemble.png>]
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 216.
+Package luatex.def Info: logos/tu.pdf  used on input line 224.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 <Plots/SnowStormReweighting.png, id=250, 583.17876pt x 405.515pt>
 File: Plots/SnowStormReweighting.png Graphic file (type png)
 <use Plots/SnowStormReweighting.png>
-Package luatex.def Info: Plots/SnowStormReweighting.png  used on input line 216
+Package luatex.def Info: Plots/SnowStormReweighting.png  used on input line 224
 .
 (luatex.def)             Requested size: 255.14903pt x 177.41855pt.
 
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 216.
+Package luatex.def Info: logos/tu.pdf  used on input line 224.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 [15
 
 <./Plots/SnowStormReweighting.png>]
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 230.
+Package luatex.def Info: logos/tu.pdf  used on input line 238.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+<Plots/SystematicVisualization.pdf, id=257, 462.528pt x 346.896pt>
+File: Plots/SystematicVisualization.pdf Graphic file (type pdf)
+<use Plots/SystematicVisualization.pdf>
+Package luatex.def Info: Plots/SystematicVisualization.pdf  used on input line 
+238.
+(luatex.def)             Requested size: 255.14903pt x 191.36505pt.
+
+
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 238.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+[16
+
+<./Plots/SystematicVisualization.pdf>]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 253.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+<Plots/systematics_fit_impact.pdf, id=306, 462.528pt x 346.896pt>
+File: Plots/systematics_fit_impact.pdf Graphic file (type pdf)
+<use Plots/systematics_fit_impact.pdf>
+Package luatex.def Info: Plots/systematics_fit_impact.pdf  used on input line 2
+53.
+(luatex.def)             Requested size: 255.14903pt x 191.36505pt.
+
+
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 253.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+[17
+
+<./Plots/systematics_fit_impact.pdf>]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 261.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+<Plots/asimov_scan_Poisson.pdf, id=354, 462.528pt x 346.896pt>
+File: Plots/asimov_scan_Poisson.pdf Graphic file (type pdf)
+<use Plots/asimov_scan_Poisson.pdf>
+Package luatex.def Info: Plots/asimov_scan_Poisson.pdf  used on input line 261.
+
+(luatex.def)             Requested size: 208.37193pt x 156.28172pt.
+<Plots/spectrum_3_zenith_20ebins.png, id=355, 462.528pt x 346.896pt>
+File: Plots/spectrum_3_zenith_20ebins.png Graphic file (type png)
+<use Plots/spectrum_3_zenith_20ebins.png>
+Package luatex.def Info: Plots/spectrum_3_zenith_20ebins.png  used on input lin
+e 261.
+(luatex.def)             Requested size: 208.37193pt x 156.28172pt.
+
+
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 261.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+[18
+
+<./Plots/asimov_scan_poisson.pdf><./Plots/spectrum_3_zenith_20ebins.png>]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 287.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 
 
-! LaTeX Error: File `Plots/Parameters_impact' not found.
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 287.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+[19
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.230 \end{frame}
-               
-? 
-! Emergency stop.
- ...                                              
-                                                  
-l.230 \end{frame}
-               
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 292.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+<Plots/SAY_paper.png, id=402, 714.67pt x 590.205pt>
+File: Plots/SAY_paper.png Graphic file (type png)
+<use Plots/SAY_paper.png>
+Package luatex.def Info: Plots/SAY_paper.png  used on input line 292.
+(luatex.def)             Requested size: 208.37193pt x 172.08266pt.
+<Plots/SAY_visualization.png, id=403, 462.528pt x 346.896pt>
+File: Plots/SAY_visualization.png Graphic file (type png)
+<use Plots/SAY_visualization.png>
+Package luatex.def Info: Plots/SAY_visualization.png  used on input line 292.
+(luatex.def)             Requested size: 208.37193pt x 156.28172pt.
 
 
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 292.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+[20
+
+<./Plots/SAY_paper.png><./Plots/SAY_visualization.png>]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 307.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+<Plots/asimov_scan_say.pdf, id=411, 462.528pt x 346.896pt>
+File: Plots/asimov_scan_say.pdf Graphic file (type pdf)
+<use Plots/asimov_scan_say.pdf>
+Package luatex.def Info: Plots/asimov_scan_say.pdf  used on input line 307.
+(luatex.def)             Requested size: 255.14903pt x 191.36505pt.
+
+
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 307.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+[21
+
+<./Plots/asimov_scan_say.pdf>]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 323.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+<Plots/bias_plot_linear_NNMFit_3zenith_20ebins-1.pdf, id=459, 462.528pt x 346.8
+96pt>
+File: Plots/bias_plot_linear_NNMFit_3zenith_20ebins-1.pdf Graphic file (type pd
+f)
+<use Plots/bias_plot_linear_NNMFit_3zenith_20ebins-1.pdf>
+Package luatex.def Info: Plots/bias_plot_linear_NNMFit_3zenith_20ebins-1.pdf  u
+sed on input line 323.
+(luatex.def)             Requested size: 255.14903pt x 191.36505pt.
+
+
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 323.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+[22
+
+<./Plots/bias_plot_linear_NNMFit_3zenith_20ebins-1.pdf>]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 341.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+File: Plots/spectrum_(3.5,8.5,8)_10Y.png Graphic file (type png)
+<use Plots/spectrum_(3.5,8.5,8)_10Y.png>
+Package luatex.def Info: Plots/spectrum_(3.5,8.5,8)_10Y.png  used on input line
+ 341.
+(luatex.def)             Requested size: 127.57451pt x 96.79553pt.
+File: Plots/TS_Distribution(3.5,8.5,8)_10Y.png Graphic file (type png)
+<use Plots/TS_Distribution(3.5,8.5,8)_10Y.png>
+Package luatex.def Info: Plots/TS_Distribution(3.5,8.5,8)_10Y.png  used on inpu
+t line 341.
+(luatex.def)             Requested size: 127.57451pt x 92.88132pt.
+
+
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 341.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+[23
+
+]
+\tf@nav=\write5
+
+\openout5 = dpg_presentation.nav
+\tf@toc=\write6
+
+\openout6 = dpg_presentation.toc
+\tf@snm=\write7
+
+\openout7 = dpg_presentation.snm
+ (./dpg_presentation.aux)
+ ***********
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-09-10>
+ ***********
+)
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 39 (\begingroup)
+### bottom level
 
 Here is how much of LuaTeX's memory you used:
- 34848 strings out of 475910
- 100000,1648299 words of node,token memory allocated 4657 words of node memory still in use:
-   81 hlist, 14 vlist, 12 rule, 22 disc, 16 local_par, 3 dir, 4 math, 125 glue, 
-30 kern, 31 penalty, 147 glyph, 133 attribute, 78 glue_spec, 133 attribute_list,
- 4 temp, 2 if_stack, 1 write, 34 pdf_colorstack, 3 pdf_setmatrix, 3 pdf_save, 3 
-pdf_restore nodes
-   avail lists: 2:286,3:100,4:209,5:178,6:31,7:1167,8:7,9:324,10:10,11:89
- 56489 multiletter control sequences out of 65536+600000
- 84 fonts using 28775231 bytes
- 128i,18n,147p,390b,963s stack positions out of 10000i,1000n,20000p,200000b,200000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 35028 strings out of 475910
+ 100000,1648299 words of node,token memory allocated
+ 5048 words of node memory still in use:
+   91 hlist, 14 vlist, 14 rule, 25 disc, 15 local_par, 4 math, 148 glue, 32 kern
+, 38 penalty, 146 glyph, 157 attribute, 70 glue_spec, 157 attribute_list, 4 writ
+e, 40 pdf_colorstack, 4 pdf_setmatrix, 4 pdf_save, 4 pdf_restore nodes
+   avail lists: 2:278,3:105,4:203,5:239,6:32,7:1259,8:33,9:408,10:12,11:86
+ 56568 multiletter control sequences out of 65536+600000
+ 84 fonts using 28775319 bytes
+ 128i,18n,147p,390b,979s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</home/leander/.local/texlive/2024/texmf-dist/fonts/opentype/public/firamath/Fir
+aMath-Regular.otf></home/leander/.local/texlive/2024/texmf-dist/fonts/opentype/p
+ublic/fira/FiraSans-Light.otf></home/leander/.local/texlive/2024/texmf-dist/font
+s/opentype/public/firamath/FiraMath-Regular.otf></home/leander/.local/texlive/20
+24/texmf-dist/fonts/opentype/public/fira/FiraSans-Light.otf></home/leander/.loca
+l/texlive/2024/texmf-dist/fonts/opentype/public/fira/FiraSans-Medium.otf>
+Output written on dpg_presentation.pdf (23 pages, 5425257 bytes).
+
+PDF statistics: 549 PDF objects out of 1000 (max. 8388607)
+ 214 compressed objects within 3 object streams
+ 47 named destinations out of 1000 (max. 131072)
+ 16 words of extra memory for PDF output out of 10000 (max. 100000000)
+
